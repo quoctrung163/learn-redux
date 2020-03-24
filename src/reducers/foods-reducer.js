@@ -35,5 +35,5 @@ export default () => {
       imageUrl: 'https://loremflickr.com/320/240',
       created_date: '2020-03-24'
     }
-  ]
+  ];
 };

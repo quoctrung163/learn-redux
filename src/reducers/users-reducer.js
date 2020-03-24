@@ -16,8 +16,8 @@ export default () => {
       id: 3,
       firstName: 'Dinh',
       lastName: 'Doanh',
-      description: 'Sercurity Managers',
+      description: 'Sercurity Manager',
       age: 20
     }
   ];
-}
+};

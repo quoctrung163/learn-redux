@@ -5,6 +5,6 @@ export default (state = {}, action) => {
     case SELECT_FOOD:
       return action.payload;
     default:
-      return {}
+      return state;
   }
-}
+};

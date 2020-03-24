@@ -10,15 +10,15 @@ class FoodList extends Component {
       (eachFood) => {
         return (
           <li key={eachFood.id}
-            onClick={
+            onClick={     
               () => {
-                this.props.selectFood(eachFood)
+                this.props.selectFood(eachFood);
               }
             }
           >
             Food's name: {eachFood.name}
           </li>
-        )
+        );
       }
     );
     return listItem;
@@ -30,7 +30,7 @@ class FoodList extends Component {
           this.createFoodListItems()
         }
       </ul>
-    )
+    );
   }
 }
 
@@ -39,7 +39,7 @@ function mapStateToProps(state) {
   return {
     foods: state.foods
   };
-};
+}
 
 // map dispatch (redux) to props for using
 function mapDispatchToProps(dispatch) {
